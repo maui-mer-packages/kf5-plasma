@@ -62,6 +62,7 @@ PkgConfigBR:
     - Qt5Svg
     - Qt5Declarative
     - Qt5Script
+    - Qt5Quick
 Requires:
     - kf5-filesystem
 
