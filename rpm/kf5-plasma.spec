@@ -124,7 +124,7 @@ rm -rf %{buildroot}
 %{_kf5_bindir}/plasmapkg2
 %{_kf5_libdir}/libKF5Plasma.so.*
 %{_kf5_libdir}/libKF5PlasmaQuick.so.*
-%{_qt5_libdir}/platformqml/touch/org/kde/plasma
+%{_qt5_libdir}/qt5/platformqml/touch/org/kde/plasma
 %{_kf5_qmldir}/org/kde/*
 %{_qt5_plugindir}/*.so
 %{_kf5_datadir}/dbus-1/interfaces/*.xml
