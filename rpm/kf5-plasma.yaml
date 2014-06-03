@@ -41,13 +41,6 @@ PkgBR:
     - kf5-kxmlgui-devel
     - kf5-kdnssd-devel
     - kf5-kdoctools-devel
-    - libX11-devel
-    - libxcb-devel
-    - libXrender-devel
-    - libXScrnSaver-devel
-    - libXext-devel
-    - libSM-devel
-    - openssl-devel
     - libGL-devel
 PkgConfigBR:
     - Qt5Core
@@ -64,6 +57,19 @@ PkgConfigBR:
     - Qt5Script
     - Qt5Quick
     - Qt5X11Extras
+    - x11
+    - x11-xcb
+    - xcb
+    - xcb-composite
+    - xcb-damage
+    - xcb-shape
+    - xcb-xfixes
+    - xcb-render
+    - xrender
+    - xscrnsaver
+    - xext
+    - sm
+    - openssl
 Requires:
     - kf5-filesystem
 

@@ -34,6 +34,19 @@ BuildRequires:  pkgconfig(Qt5Declarative)
 BuildRequires:  pkgconfig(Qt5Script)
 BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  pkgconfig(Qt5X11Extras)
+BuildRequires:  pkgconfig(x11)
+BuildRequires:  pkgconfig(x11-xcb)
+BuildRequires:  pkgconfig(xcb)
+BuildRequires:  pkgconfig(xcb-composite)
+BuildRequires:  pkgconfig(xcb-damage)
+BuildRequires:  pkgconfig(xcb-shape)
+BuildRequires:  pkgconfig(xcb-xfixes)
+BuildRequires:  pkgconfig(xcb-render)
+BuildRequires:  pkgconfig(xrender)
+BuildRequires:  pkgconfig(xscrnsaver)
+BuildRequires:  pkgconfig(xext)
+BuildRequires:  pkgconfig(sm)
+BuildRequires:  pkgconfig(openssl)
 BuildRequires:  kf5-rpm-macros
 BuildRequires:  extra-cmake-modules
 BuildRequires:  qt5-tools
@@ -53,13 +66,6 @@ BuildRequires:  kf5-kwindowsystem-devel
 BuildRequires:  kf5-kxmlgui-devel
 BuildRequires:  kf5-kdnssd-devel
 BuildRequires:  kf5-kdoctools-devel
-BuildRequires:  libX11-devel
-BuildRequires:  libxcb-devel
-BuildRequires:  libXrender-devel
-BuildRequires:  libXScrnSaver-devel
-BuildRequires:  libXext-devel
-BuildRequires:  libSM-devel
-BuildRequires:  openssl-devel
 BuildRequires:  libGL-devel
 
 %description
