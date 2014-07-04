@@ -9,7 +9,7 @@ Name:       kf5-plasma
 # << macros
 
 Summary:    KDE Frameworks 5 Tier 3 framework with Plasma 2 libraries and runtime component
-Version:    4.100.0
+Version:    5.0.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
