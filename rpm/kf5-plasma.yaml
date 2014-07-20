@@ -53,7 +53,6 @@ PkgConfigBR:
     - Qt5Test
     - Qt5Qml
     - Qt5Svg
-    - Qt5Declarative
     - Qt5Script
     - Qt5Quick
     - Qt5X11Extras
