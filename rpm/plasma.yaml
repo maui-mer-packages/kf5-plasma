@@ -1,4 +1,4 @@
-Name         : kf5-plasma
+Name         : plasma
 Version      : 5.1.0
 Release      : 1
 Group        : System/Base
@@ -25,22 +25,22 @@ PkgBR:
     - kf5-rpm-macros
     - extra-cmake-modules
     - qt5-tools
-    - kf5-kactivities-libs-devel
-    - kf5-karchive-devel
-    - kf5-kconfigwidgets-devel
-    - kf5-kcoreaddons-devel
-    - kf5-kdbusaddons-devel
-    - kf5-kdeclarative-devel
-    - kf5-kglobalaccel-devel
-    - kf5-kguiaddons-devel
-    - kf5-ki18n-devel
-    - kf5-kiconthemes-devel
-    - kf5-kio-devel
-    - kf5-kservice-devel
-    - kf5-kwindowsystem-devel
-    - kf5-kxmlgui-devel
-    - kf5-kdnssd-devel
-    - kf5-kdoctools-devel
+    - kactivities-libs-devel
+    - karchive-devel
+    - kconfigwidgets-devel
+    - kcoreaddons-devel
+    - kdbusaddons-devel
+    - kdeclarative-devel
+    - kglobalaccel-devel
+    - kguiaddons-devel
+    - ki18n-devel
+    - kiconthemes-devel
+    - kio-devel
+    - kservice-devel
+    - kwindowsystem-devel
+    - kxmlgui-devel
+    - kdnssd-devel
+    - kdoctools-devel
     - libGL-devel
 PkgConfigBR:
     - Qt5Core
@@ -85,14 +85,12 @@ Files:
     - "%{_kf5_libdir}/libKF5PlasmaQuick.so.*"
     - "%{_qt5_libdir}/qt5/platformqml/touch/org/kde/plasma"
     - "%{_kf5_qmldir}/org/kde/*"
-    - "%{_qt5_plugindir}/*.so"
-    - "%{_kf5_datadir}/dbus-1/interfaces/*.xml"
-    - "%{_kf5_datadir}/plasma/"
-    - "%{_kf5_datadir}/kservices5/*.desktop"
-    - "%{_kf5_datadir}/kservices5/kded/*.desktop"
-    - "%{_kf5_datadir}/kservicetypes5/*.desktop"
-    - "%{_kf5_mandir}/man1/plasmapkg2.1.gz"
-    - "%{_kf5_plugindir}/kded/*.so"
+    - "%{_kf5_plugindir}/*"
+    - "%{_kf5_dbusinterfacesdir}/*.xml"
+    - "%{_kf5_sharedir}/plasma/"
+    - "%{_kf5_servicesdir}/*"
+    - "%{_kf5_servicetypesdir}/*"
+    - "%{_mandir}/man1/plasmapkg2.1.gz"
 
 SubPackages:
     - Name: devel
@@ -103,24 +101,24 @@ SubPackages:
         that use %{name}.
       Requires:
           - extra-cmake-modules
-          - kf5-kactivities-libs-devel
-          - kf5-karchive-devel
-          - kf5-kconfigwidgets-devel
-          - kf5-kcoreaddons-devel
-          - kf5-kdbusaddons-devel
-          - kf5-kdeclarative-devel
-          - kf5-kglobalaccel-devel
-          - kf5-kguiaddons-devel
-          - kf5-ki18n-devel
-          - kf5-kiconthemes-devel
-          - kf5-kio-devel
-          - kf5-kservice-devel
-          - kf5-kwindowsystem-devel
-          - kf5-kxmlgui-devel
-          - kf5-kdoctools-devel
+          - kactivities-libs-devel
+          - karchive-devel
+          - kconfigwidgets-devel
+          - kcoreaddons-devel
+          - kdbusaddons-devel
+          - kdeclarative-devel
+          - kglobalaccel-devel
+          - kguiaddons-devel
+          - ki18n-devel
+          - kiconthemes-devel
+          - kio-devel
+          - kservice-devel
+          - kwindowsystem-devel
+          - kxmlgui-devel
+          - kdoctools-devel
       Files:
-          - "%{_kf5_libdir}/cmake/KF5Plasma"
-          - "%{_kf5_libdir}/cmake/KF5PlasmaQuick"
+          - "%{_kf5_cmakedir}/KF5Plasma"
+          - "%{_kf5_cmakedir}/KF5PlasmaQuick"
           - "%{_kf5_libdir}/libKF5Plasma.so"
           - "%{_kf5_libdir}/libKF5PlasmaQuick.so"
           - "%{_kf5_includedir}/plasma_version.h"
