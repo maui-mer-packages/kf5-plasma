@@ -7,7 +7,6 @@ Summary      : KDE Frameworks 5 Tier 3 framework with Plasma 2 libraries and run
 Description  : |
   KDE Frameworks 5 Tier 3 framework with Plasma 2 libraries and runtime component
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
