@@ -11,6 +11,9 @@ URL          : http://www.kde.org
 Sources:
     - "%{name}-%{version}.tar.xz"
 
+Patches:
+    - 0001-install-plasma-wallpaper.desktop-in-servicetypes.patch
+
 RpmLintIgnore:
     - devel-file-in-non-devel-package
     - no-changelogname-tag
